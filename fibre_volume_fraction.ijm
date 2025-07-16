@@ -97,7 +97,7 @@ function create_masks(path){
 		run("Despeckle");
 	}
 	run("Images to Stack", "name=Stack title=[] use");
-	saveAs("TIFF", analysis_dir + "-mask_stack");
+	saveAs("TIFF", analysis_dir + title + "-mask_stack");
 }
 
 
